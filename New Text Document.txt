@@ -1,0 +1,23 @@
+Funcionalidad :
+	-Click counter HECHO
+	-Sistema de compra HECHO
+	-Funcion de los botones HECHO
+	-Actualizar inventario HECHO
+	-Poder cambiar pj
+
+Diseño:
+	-Cambiar diseño de cookie por otra cosa
+	-Alinear todos los elementos del juego
+	-Corregir efectos y bugs
+	-Efecto y sonido  al hacer click
+	-Icono por cada obj. del inventario
+
+Logros:
+	-Logro a llegar a 500 click
+	-Logro al llegar a 1000 clicks
+	-Logro al tener 3 potenciadores
+	-Cuadro container de logros
+	-Popup cada vez que se consigue un logro
+
+https://www.w3schools.com/howto/howto_js_popup.asp
+https://css-tricks.com/playing-with-particles-using-the-web-animations-api/

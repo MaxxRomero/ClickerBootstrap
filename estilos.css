@@ -1,0 +1,118 @@
+body {
+    background-image: url("img/farmbg.jpg");
+    background-size: cover;
+    cursor: url('img/cursor.png'), auto;
+    font-family: kongtext;
+}
+
+.wood-bg{
+    background-image: url(img/woodbg.jpg);
+    background-size: contain;
+    border: 5px solid #000;
+}
+
+.moneda{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top:-5px;
+}
+
+.animales div img{
+    width: 100%;
+    height: 140px;
+    margin-top: 10px;
+}
+
+.precio{
+    position: absolute;
+    z-index: 10;
+    left:30px;
+    margin-top: 35px;
+    cursor: url('img/money.png'), auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bloqueado{
+    filter: grayscale();
+    cursor: url('img/money.png'), auto;   
+}
+
+.disponible{
+    cursor: url('img/click.png'), auto;
+}
+
+.fondoJuego{
+    width: 100%;
+    background-image: url(img/farmbgclicker.jpg);
+    border: 3px solid #000;
+    background-size: contain;
+    cursor: url('img/pasto.png'), auto;
+}
+
+.imagenClicker{
+    width: 35%;
+    display:block;
+    margin:auto;
+    height: 180px;
+}
+
+.cajaInventario{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px solid #000;
+    width: 90%;
+    height: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-inventario{
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.cajalogro{
+    background: red;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+
+.titulo-tienda{
+    font-size: 30px;
+}
+
+.container-titulo-tienda{
+    border-right: 5px solid #000;
+}
+
+.caja-items-tienda div h4{
+    font-size: 20px;
+}
+
+.caja-items-tienda div {
+    margin:15px;
+}
+
+.caja-items-tienda img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 20px;
+    cursor: url('img/money.png'), auto;
+}
+
+
+/* FONTS */
+@font-face { font-family: joystix; src: url('fonts/joystix\ monospace.ttf'); }
+@font-face { font-family: kongtext; src: url('fonts/kongtext.ttf'); }
+
+.titulo{
+    font-family: joystix;
+    font-size: 100px;
+}

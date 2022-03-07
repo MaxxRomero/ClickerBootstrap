@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+    <body>
+        <div class="container">
+            <header class="row bg-dark mt-3 mb-2">
+                <div class="col wood-bg">
+                    <h1 class="text-center text-light p-5 titulo">Farm Clicker</h1>
+                </div>
+            </header>
+            <div id="alerta" style="opacity: 0;">No tienes suficientes clicks</div>
+            <div class="row">
+                <div class="row contenedor d-flex">
+                    <div class="col-2 m-3 animales wood-bg" style="background-color: black; height: 780px;">
+                        <div>
+                            <img src="img/CHANCHITO.png" class="disponible" id="chancho" alt="chanchito">
+                        </div>
+                        <div>
+                            <h4 class="precio  text-center text-warning precio-animal">$1000</h4>
+                            <img src="img/VAQUITA.png" class="bloqueado" id = "vaca" alt="vaquita">
+                        </div>
+                        <div>
+                            <h4 class="precio text-center text-warning precio-animal">$2500</h4>
+                            <img src="img/GALLITO.png" class="bloqueado"id = "gallo" alt="gallito">
+                        </div>
+                        <div>
+                            <h4 class="precio text-center text-warning precio-animal">$5000</h4>
+                            <img src="img/OVEJITA.png" class="bloqueado" id = "oveja" alt="ovejita">
+                        </div>
+                        <div>
+                            <h4 class="precio text-center text-warning precio-animal">$8000</h4>
+                            <img src="img/BURRITO.png" class="bloqueado" id = "burro" alt="burrito">
+                        </div>
+                    </div>
+                    <div class="col-6 m-3 wood-bg" style="background-color: black;">
+                        <h1 class="text-center text-light mt-3" style="font-size: 50px;"><img class="moneda mr-3" src="img/money.png" alt="">Monedas:</h1>
+                        <h1 class="text-center text-light" style="font-size: 50px;" id="contador">0</h1>
+                        <div class="fondoJuego">
+                            <img src="img/CHANCHITO.png" class="imagenClicker" id="img-clicker"> 
+                        </div>
+                        <p class="text-light text-center p-2" id="parrafo-descripcion">Chancho genera 1 moneda</p>
+                        <h4 class="text-light text-center pb-2">Inventario:</h4>
+                        <div class="cajaInventario"> 
+                            <div id="div-trowel">
+                               
+                            </div>
+                            <div id="div-tractor">
+                                
+                            </div>
+                            <div id="div-scythe">
+                                
+                            </div>
+                            <div id="div-barn">
+                               
+                            </div>                         
+                            <div id="div-farmer">
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 m-3 wood-bg" style="background-color: black;">
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>
+                        <div class="cajalogro"></div>  
+                    </div>                     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 wood-bg d-flex" style="background-color: black;">
+                    <div class="col-4 p-5 container-titulo-tienda">
+                        <h1 class="text-light  titulo-tienda font-size">Tienda<img class="ml-3" src="img/money-bag.png" alt=""></h1>
+                    </div>
+                    <div class="col-8 caja-items-tienda d-flex align-items-center justify-content-between">
+                        <div>
+                            <img src="img/trowelgrande.png" alt="" id="trowel">
+                            <h4 class="text-center text-light">$500</h4>
+                        </div>
+                        <div>
+                            <img src="img/tractorgrande.png" alt="" id="tractor">
+                            <h4 class="text-center text-light">$1000</h4>
+                        </div>
+                        <div>
+                            <img src="img/scythe.png" alt="" id="scythe">
+                            <h4 class="text-center text-light">$2000</h4>
+                        </div>
+                        <div>
+                            <img src="img/barn.png" alt="" id="barn">
+                            <h4 class="text-center text-light">$3500</h4>
+                        </div>
+                        <div>
+                            <img src="img/farmergrande.png" alt="" id="farmer">
+                            <h4 class="text-center text-light">$5000</h4>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+
+        <script src="js/app.js"></script>
+</body>
+</html>
